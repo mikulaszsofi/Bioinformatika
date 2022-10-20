@@ -1,5 +1,5 @@
 def lista():
-    f = open("../Bioinformatika/prot", "r").read()
+    f = open("prot.rosalind", "r").read()
     s = [f[i:i+3] for i in range(0, len(f), 3)] # hármasával szétvágás
     return s
 
