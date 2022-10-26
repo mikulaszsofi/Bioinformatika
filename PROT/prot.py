@@ -3,10 +3,9 @@ def lista():
     s = [f[i:i+3] for i in range(0, len(f), 3)] # hármasával szétvágás
     return s
 
-def dict():
-    f = open("codontable", "r").read()
+def dict(text):
+    f = open(text, "r").read()
     f = f.replace("\n"," ")
-
     f = list(f.split(" "))
     c = f.count('')
     while c>0:
@@ -24,4 +23,4 @@ def prot(l,m):
             dna=dna+m[x+1]
     print(dna)
 
-prot(lista(),dict())
+prot(lista(),dict("codontable"))
