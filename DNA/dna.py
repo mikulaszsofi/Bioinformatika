@@ -3,7 +3,7 @@ def coun(s):
     c = s.count("C")
     g = s.count("G")
     t = s.count("T")
-    print(a,c,g,t)
+    return(a,c,g,t)
 
-f = open("dna.rosalind", "r")
-coun(f.read())
+'''f = open("dna.rosalind", "r")
+print(coun(f.read()))'''

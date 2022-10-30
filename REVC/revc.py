@@ -6,3 +6,4 @@ def compl(dna):
 
 f = open("revc", "r")
 compl(f.read())
+print(89)
