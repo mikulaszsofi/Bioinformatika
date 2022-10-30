@@ -9,10 +9,5 @@ def iprb(k,m,n):
     nn = n/s*(n-1)/(s-1) # 0
 
     return (kk+km+kn+(3/4)*mm+(1/2)*mn)
-#nope..
-print(iprb(int(open("iprb.rosalind", "r").read().split(" ")[0]), int(open("iprb.rosalind", "r").read().split(" ")[1]), int(open("iprb.rosalind", "r").read().split(" ")[2])))
 
-
-
-
-
+'''print(iprb(int(open("iprb.rosalind", "r").read().split(" ")[0]), int(open("iprb.rosalind", "r").read().split(" ")[1]), int(open("iprb.rosalind", "r").read().split(" ")[2])))'''

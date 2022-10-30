@@ -5,7 +5,7 @@ def hamm(s,t):
             h+=1
     return h
 
-a = open("hamm.rosalind", "r").read().split("\n")
+'''a = open("hamm.rosalind", "r").read().split("\n")
 b = a[0]
 c = a[1]
-print(hamm(b,c))
+print(hamm(b,c))'''

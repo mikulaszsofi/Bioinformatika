@@ -16,5 +16,5 @@ def mprt(file):
             print(i)
             print(list)
 
-print(mprt("mprt.rosalind"))
+'''mprt("mprt.rosalind")'''
 

@@ -11,4 +11,4 @@ def fib(n,k):
         nb = new(p,k)
     return nb+na+p
 
-print(fib(int(open("fib.rosalind", "r").read().split(" ")[0]), int(open("fib.rosalind", "r").read().split(" ")[1])))
+'''print(fib(int(open("fib.rosalind", "r").read().split(" ")[0]), int(open("fib.rosalind", "r").read().split(" ")[1])))'''

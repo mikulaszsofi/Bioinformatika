@@ -38,7 +38,7 @@ def long(l, e, h):
     else:
         print(dna)
 
-ha = csakdna(beolv("long.rosalind"),13)
+'''ha = csakdna(beolv("long.rosalind"),13)
 hos = len(ha[0])
-long(csakdna(beolv("long.rosalind"),13),1, hos)
+long(csakdna(beolv("long.rosalind"),13),1, hos)'''
 

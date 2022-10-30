@@ -1,5 +1,5 @@
-def gc():
-    f = open("in", "r")
+def gc(s):
+    f = open(s, "r")
     s = f.read().replace("\n","")
     n = s.split(">")
     n = n[1:] #az előző lépés után a lista első eleme " ", erre nincs szükség
@@ -14,6 +14,6 @@ def gc():
     print(maxcode)
     print(maxi)
 
-gc()
+'''gc("in")'''
 
 

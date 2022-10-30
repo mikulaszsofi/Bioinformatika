@@ -16,5 +16,5 @@ def grph(s):
                     print(i[:13], j[:13])
 
 
-grph(beolv("grph.rosalind"))
+'''grph(beolv("grph.rosalind"))'''
 
