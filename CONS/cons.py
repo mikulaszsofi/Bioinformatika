@@ -23,6 +23,6 @@ def cons(s):
     maxim = "".join(max(set(p[k]), key = p[k].count) for k in range(len(p)))
     print(maxim)
     for r in range(4):
-        print (b[r]+": "+" ".join(str(x) for x in profile[r]))
+        print(b[r]+": "+" ".join(str(x) for x in profile[r]))
 
 '''cons("cons.rosalind")'''

@@ -1,7 +1,7 @@
 import sys, os
 
 dn = os.path.dirname(__file__)
-pdn = os.path.join(dn," ")
+pdn = os.path.join(dn,".")
 sys.path.append(pdn)
 
 from beolvas import beolv
