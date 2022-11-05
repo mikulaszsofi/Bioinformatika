@@ -1,6 +1,6 @@
 def replace(dna):
     rna = dna.replace("T","U")
-    print(rna)
+    return rna
 
-f = open("rna.rosalind","r")
-replace(f.read())
+'''f = open("rna.rosalind","r")
+print(replace(f.read()))'''

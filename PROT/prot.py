@@ -1,5 +1,5 @@
-def lista():
-    f = open("prot.rosalind", "r").read()
+def lista(p):
+    f = open(p, "r").read()
     s = [f[i:i+3] for i in range(0, len(f), 3)] # hármasával szétvágás
     return s
 
@@ -21,6 +21,6 @@ def prot(l,m):
         x = m.index(e)
         if m[x+1] !='Stop':
             dna=dna+m[x+1]
-    print(dna)
+    return dna
 
-prot(lista(),dict("codontable"))
+'''print(prot(lista("prot.rosalind"),dict("codontable")))'''

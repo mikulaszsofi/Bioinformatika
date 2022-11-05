@@ -1,13 +1,15 @@
 def subs(s,t):
+    k =[]
     for i in range(len(s)-len(t)+1):
         if s[i:(i+len(t))] == t:
-            print(i+1)
+            k.append(i+1)
+    return k
 
 
-s = open("s.rosalind","r").read()
+'''s = open("s.rosalind","r").read()
 t = open("t.rosalind", "r").read()
 
-subs(s,t)
+print("\n".join(str(x) for x in subs(s,t)))'''
 
 
 
