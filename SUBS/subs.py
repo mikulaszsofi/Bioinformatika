@@ -5,7 +5,6 @@ def subs(s,t):
             k.append(i+1)
     return k
 
-
 '''s = open("s.rosalind","r").read()
 t = open("t.rosalind", "r").read()
 

@@ -14,4 +14,4 @@ def seto(n,A,B):
     print(ca)
     print(cb)
 
-f = open("seto.rosalind","r").read().split("\n")
+
